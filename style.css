@@ -1,0 +1,66 @@
+
+body
+{
+    background-image: url(./Netflix2.jpg);
+    object-fit:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+
+
+#main_div
+{
+      background-color: rgba(0, 0, 0, 0.227);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10px;
+    height: 25rem;
+    width: 26rem;
+    border: 2px solid black;
+    margin-left: 35rem;
+    margin-top: 10rem;
+    border-radius: 10px;
+    }
+#Name
+{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    height: 3rem;
+    width: 22rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    color:white;
+}
+#Name:hover,#PASS:hover
+{
+    box-shadow: 2px 2px 2px 2px rgb(234, 28, 28);
+}
+#PASS
+{
+    margin-left: 1rem;
+    height: 3rem;
+    width: 22rem;
+    border-radius: 10px;
+    text-align: center;
+  background-color: transparent;    
+  color:white;
+}
+#btn
+{
+    margin-left: 1rem;
+    height: 2.5rem;
+    width: 22rem;
+
+}
+#check
+{
+    margin-left: 1rem;;
+}
